@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cornflowerblue
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+p {
+    font-size: 200px;
+}
+
+
+button {
+    height: auto;
+    width: auto;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: beige
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
